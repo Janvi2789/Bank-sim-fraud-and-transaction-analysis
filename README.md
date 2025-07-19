@@ -76,3 +76,12 @@ The goal is to understand both fraud behavior and transaction patterns across di
  * Transportation shows very high fraud count despite moderate spending.
  * Other categories like Food, Fashion, and Health also have notable fraud cases.
  * Indicates that fraud doesn’t always happen in categories with high spending categories, some categories just face more fraud because they’re used more often.
+
+## Conclusion:
+* Fraud isn’t happening randomly, there are patterns based on time, user type, and what people are spending on.
+* Since most fraud happens on Mondays and among users under 25:
+  * Banks can watch closely for fraud at the start of the week
+  * Organize awareness workshops and send alerts to young users about safe banking
+* The fact that many top spenders are linked to fraud could mean there’s some repeated fraud behavior going on. This calls for stronger background checks and keeping an eye on suspicious activity.
+* Some categories like Transport and Food have more fraud, these should have stricter fraud checks or use smart alerts based on user behavior.
+* Instead of treating every customer the same, banks can now build smarter, targeted fraud prevention strategies.
