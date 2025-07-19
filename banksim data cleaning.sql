@@ -153,5 +153,3 @@ WHERE LENGTH(customer) >= 10;
 
 SELECT *
 from banksim_clean;
-
--- --------------- ----------
