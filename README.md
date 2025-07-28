@@ -1,7 +1,7 @@
 # Transaction and Fraud Analysis
 
 ## Overview:
-This project analyzes patterns in synthetic banking transaction data to better understand how fraud appears across different customer groups and transaction types. Using SQL for data cleaning and exploration, and Power BI for visualization, the goal was to uncover trends—not predict fraud, but to make sense of how and where it tends to happen. The dataset is fully synthetic, sourced from Kaggle.
+This project analyzes patterns in synthetic banking transaction data to better understand how fraud appears across different customer groups and transactions. Using SQL for data cleaning and exploration, and Power BI for dashboard, the goal was to identify trends (not predict fraud), but to make sense of how and where it tends to happen. The dataset is fully synthetic, sourced from Kaggle.
 
 ## Problem Objective:
  Fraud in banking is a major concern. This project focuses on:
@@ -32,8 +32,8 @@ The goal is to understand both fraud behavior and transaction patterns across di
 
 * Analyzed spending by:
    * Gender: number of transactions and spending per group
-   * Age group – grouped into ranges like 25–34, 35–44, etc.
-   * Day of the week – to find when people transact most
+   * Age group: grouped into ranges like 25–34, 35–44, etc.
+   * Day of the week: to find when people transact most
 
 * Explored fraud patterns:
    * Fraud frequency across categories
@@ -48,13 +48,13 @@ The goal is to understand both fraud behavior and transaction patterns across di
 ## Power-Bi
 * Imported the cleaned synthetic data into Power BI.
 * Created DAX measures to calculate key fraud metrics like fraud percentage, total fraud amount, and affected customers.
-* Built visuals to explore transaction and fraud patterns by weekday, age group, gender, and transaction category.
+* Built charts to explore transaction and fraud patterns by weekday, age group, gender, and transaction category.
 * Added slicers for easy filtering and comparison across segments.
 * Used DAX to create dynamic titles that update based on filter selections.
-* Included a reset filters button for smoother navigation.
+* Included a reset filters button and navigation buttons.
 
 ## Insights:
-* High Transaction Volume, Low Fraud Rate:
+* High Transaction Volume, but Low Fraud Rate:
   * Over 565K transactions processed, with a low fraud rate of 1.24%.
   * Suggests a relatively secure system, though fraud still exists in key segments.
 
@@ -78,10 +78,10 @@ The goal is to understand both fraud behavior and transaction patterns across di
  * Indicates that fraud doesn’t always happen in categories with high spending categories, some categories just face more fraud because they’re used more often.
 
 ## Conclusion:
-* Fraud isn’t happening randomly, there are patterns based on time, user type, and what people are spending on.
+* Fraud isn’t happening randomly, there are patterns based on time, customer type, and what people are spending on.
 * Since most fraud happens on Mondays and among users under 25:
   * Banks can watch closely for fraud at the start of the week
-  * Organize awareness workshops and send alerts to young users about safe banking
-* The fact that many top spenders are linked to fraud could mean there’s some repeated fraud behavior going on. This calls for stronger background checks and keeping an eye on suspicious activity.
-* Some categories like Transport and Food have more fraud, these should have stricter fraud checks or use smart alerts based on user behavior.
-* Instead of treating every customer the same, banks can now build smarter, targeted fraud prevention strategies.
+  * Organize awareness workshops and send alerts to young users about safe banking.
+* The fact that many top spenders are linked to fraud could mean that there’s some repeated fraud behavior going on. This calls for stronger background checks and keeping an eye on suspicious activity.
+* Some categories like Transport and Food have more fraud, these should have stricter fraud checks for those too.
+* Instead of treating every customer the same, banks need to build smarter, targeted fraud prevention strategies.
