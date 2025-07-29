@@ -9,8 +9,9 @@ This project analyzes patterns in synthetic banking transaction data to better u
    * How does fraud vary by age, gender, or transaction category?
    * Are certain days more fraud-prone?
    * Who are the top spenders and most affected customers?
-   * Analyze overall transaction patterns across different user segments.
-The goal is to understand both fraud behavior and transaction patterns across different segments and customer groups through structured, visual analysis.
+   * Analyze overall transaction patterns across different segments.
+
+The goal is to understand both fraud behavior and transaction patterns across different segments and customer groups through detailed analysis.
 
 ## DATASET USED:
 * Synthetic BankSim Dataset
